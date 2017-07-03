@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js install --no-lockfile
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js add babel-preset-es2015 --save
 
 PATH: 
   /home/vagrant/.composer/vendor/bin:/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -32,5 +32,5 @@ Lockfile:
   No lockfile
 
 Trace: 
-  Error: EPROTO: protocol error, symlink '../../../buble/node_modules/acorn/bin/acorn' -> '/home/vagrant/Code/sample/node_modules/acorn-object-spread/node_modules/.bin/acorn'
+  Error: EPROTO: protocol error, symlink '../../../babylon/bin/babylon.js' -> '/home/vagrant/Code/sample/node_modules/babel-core/node_modules/.bin/babylon'
       at Error (native)
